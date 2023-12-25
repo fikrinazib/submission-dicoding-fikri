@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-merged_data = pd.read_csv("main_data.csv")
+merged_data = pd.read_csv("dashboard//main_data.csv")
 merged_data['timestamp'] = pd.to_datetime(merged_data['timestamp'])
 
 # Hitung rata-rata konsentrasi gas di seluruh stasiun
